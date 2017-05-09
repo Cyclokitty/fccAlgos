@@ -1,4 +1,4 @@
-function rot13(str) { // LBH QVQ VG!
+function rot13(str) { 
   const decipher = [];
   const cipher = str.split('');
   const maxAlpha = 65 + 26;
@@ -15,6 +15,4 @@ function rot13(str) { // LBH QVQ VG!
   return decipher.join('');
 }
 
-// Change the inputs below to test
-
-rot13("SERR PBQR PNZC?");
+rot13("SERR PBQR PNZC!");
