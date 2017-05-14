@@ -5,7 +5,7 @@ function convertToRoman(num) {
  for (var item in romanNum) {
    while (num >= romanNum[item]) {
      roman += item;
-   num -= romanNum[item];
+     num -= romanNum[item];
    }
  }
 
